@@ -8,14 +8,14 @@ describe('First cypress test', () =>{
     })
 
     /**
-     * Commented as even I believe that elements are correct, while launching in Cypress,
+     * Comment: even I believe that elements are correctly identified, while launching in Cypress,
      * cookies notice pop up is not displayed and I couldn´t properly test it
      */
-    /**it('Verify that notice pop-up is present and close it', () => {
+    it('Verify that notice pop-up is present and close it', () => {
         cy.get('.cookie-disclaimer__cookie').should('be.visible')
         cy.get('.cookie-disclaimer__main').should('be.visible')
         cy.get('.cookie-disclaimer__button').click()
-    })*/
+    })
 
     /**
      * Got cookie cdb and checked cookie management defining a cookie and asserting that is successfully created
